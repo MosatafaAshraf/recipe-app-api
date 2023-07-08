@@ -13,7 +13,7 @@ class UserAdmin(BaseUserAdmin):
         (
             translate('permissions'),
             {
-                'fields':(
+                'fields': (
                     'is_active',
                     'is_staff',
                     'is_superuser',
