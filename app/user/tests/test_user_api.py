@@ -52,7 +52,7 @@ class PublicUserApiTests(TestCase):
 
     def test_create_token_for_user(self):
         user_data = {
-            'email': 'test@example.com', 
+            'email': 'test@example.com',
             'password': 'Password123!',
             'name': 'test name'
         }
@@ -67,7 +67,7 @@ class PublicUserApiTests(TestCase):
 
     def test_create_token_invalid_password(self):
         user_data = {
-            'email': 'test@example.com', 
+            'email': 'test@example.com',
             'password': 'Password123!',
             'name': 'test name'
         }
